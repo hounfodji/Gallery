@@ -1,43 +1,85 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+    background-color: #1F2039;
+}
+
 a{
     color: #242424;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 em{
     color: #A5B4FC;
+    font-style: normal;
 }
 
 h1{
-    font-size: 3em;
+    font-size: 3.5em;
     color: #A5B4FC;
     font-family: "Montserrat", sans-serif;
 }
 
 p{
     font-size: 1.1em;
-    font-family: "Manrope", sans-serif;
     color: #F9F8FF;
 }
 
-div{
+header, footer{
     background-color: white;
+    padding: 20px 50px;
 }
 
-body{
-    background-color: #1F2039;
-}
+
 
 h2, li{
     color: #F9F8FF;
 }
 
-#contactez-moi{
-    font-family: "Manrope", sans-serif;
+.cta{
     color: white;
     background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    padding: 20px 30px;
 }
 
-#mon-portfolio{
-    font-family: "Manrope", sans-serif;
-    color: white;
-    background: linear-gradient(#8E86B5, #ACAEED);
+.cta:hover{
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+
+#contenu{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
+
+#contenu h2{
+    margin-top: 30px;
+}
+
+#contenu ul{
+    margin-top: 30px;
+}
+
+.lien-icone:hover{
+    opacity: 0.5;
+}
+
+section{
+    padding: 80px;
+}
+
+#a-propos-main{
+    width: 50%;
+    margin: auto;
 }
