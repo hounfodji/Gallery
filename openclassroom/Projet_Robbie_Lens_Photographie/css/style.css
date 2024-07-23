@@ -1,5 +1,5 @@
 a{
-    color: black;
+    color: #242424;
 }
 
 em{
@@ -15,4 +15,29 @@ h1{
 p{
     font-size: 1.1em;
     font-family: "Manrope", sans-serif;
+    color: #F9F8FF;
+}
+
+div{
+    background-color: white;
+}
+
+body{
+    background-color: #1F2039;
+}
+
+h2, li{
+    color: #F9F8FF;
+}
+
+#contactez-moi{
+    font-family: "Manrope", sans-serif;
+    color: white;
+    background: linear-gradient(#8E86B5, #ACAEED);
+}
+
+#mon-portfolio{
+    font-family: "Manrope", sans-serif;
+    color: white;
+    background: linear-gradient(#8E86B5, #ACAEED);
 }
