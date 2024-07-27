@@ -1,4 +1,4 @@
-first.aux
-first.fdb_latexmk
-first.fls
-first.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
