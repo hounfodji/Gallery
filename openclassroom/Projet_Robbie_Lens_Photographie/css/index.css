@@ -27,7 +27,7 @@ h2, li{
 }
 
 #mon-dernier-projet{
-    background-color: white;
+    background-color: #F9F8FF;
     /* margin: 0; */
 }
 
@@ -45,4 +45,56 @@ h2, li{
     justify-content: center;
     margin-bottom: 15px;
    
+}
+
+/* form */
+#formulaire{
+    
+    color: #F9F8FF;
+    
+}
+
+#formulaire h2{
+    color: #A5B4FC;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+form{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.form-column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#name-email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
 }
