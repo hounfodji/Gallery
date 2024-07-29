@@ -23,12 +23,18 @@ em{
 }
 
 h1{
-    font-size: 3.5em;
+    font-size: 2em;
     color: #A5B4FC;
     font-family: "Montserrat", sans-serif;
 }
 
-p{
+
+h2 {
+    color: #f9f8ff;
+  }
+  
+
+p, li{
     font-size: 1.1em;
     color: #F9F8FF;
 }
@@ -37,20 +43,6 @@ header, footer{
     background-color: white;
     padding: 20px 50px;
 }
-
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-.liens-nav{
-    align-content: center;
-}
-
-.liens-nav a{
-    margin-right: 100px;
-}
-
 
 section{
     padding: 80px;
@@ -69,11 +61,34 @@ section{
     text-decoration: none;
 }
 
+.lien-icone {
+    margin-left: 30px;
+  }
+
 .lien-icone:hover{
     opacity: 0.5;
 }
 
-footer{
+footer, nav{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+nav a{
+    margin-left: 30px;
+}
+
+@media screen and (max-width:996px) {
+    section{
+        padding: 20px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
 }

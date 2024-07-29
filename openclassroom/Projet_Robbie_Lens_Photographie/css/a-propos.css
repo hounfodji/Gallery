@@ -23,6 +23,8 @@
   .a-propos-main {
     margin: auto;
   }
+
+ 
   
   table {
     color: white;
@@ -50,4 +52,10 @@
   h1,
   h2 {
     text-align: center;
+  }
+
+  @media screen and (max-width: 996px) {
+    #tarifs{
+      display: none;
+    }
   }
