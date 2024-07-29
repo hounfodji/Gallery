@@ -93,8 +93,9 @@ input[type='submit'] {
 /* media queries */
 @media screen and (max-width: 996px) {
     #accueil{
-        display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
         
     }
     
@@ -103,15 +104,10 @@ input[type='submit'] {
     }
 
     #accueil div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       text-align: center;
+       padding-right: 0;
     }
 
-    #accueil p{
-        text-align: center;
-    }
 
     #mon-dernier-projet div{
         display: flex;
@@ -119,7 +115,12 @@ input[type='submit'] {
     }
 
     #name-email{
-        display: flex;
         flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    #formulaire {
+        padding: 50px 20px;
     }
 }
